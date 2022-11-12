@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+function result() {
+	var a=document.getElementById("num1").value;  // maybe no
+	var b=document.getElementById("num2").value;  // maybe no
+	var c=a+b;
+	alert("String Output="+c);
+	//type casting
+	var e=Number(a) // This line change the attribute of this String ti Int
+	var f=Number(b) // This line change the attribute of this String ti Int
+	var g=e+f;
+  	alert("Number output "+g); 
+	
+	
+}
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+Number 1 <input type="text" id="num1" ><br>
+Number 2 <input type="text" id="num2" ><br>
+<input type="button" value="Addition" onclick="result()">
+</body>
+</html>
